@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SkyCast Pro • Weather Intelligence</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+
+  <div class="app">
+    <div class="header">
+      <h1>SkyCast Pro</h1>
+      <p>Precision Weather Forecast</p>
+    </div>
+
+    <div class="search">
+      <input id="cityInput" type="text" placeholder="Enter city name" />
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <div id="weather" class="weather">
+      <h2 id="cityName"></h2>
+      <div class="temp" id="temperature"></div>
+      <div class="condition" id="condition"></div>
+
+      <div class="details">
+        <div class="card">
+          <h3>Humidity</h3>
+          <span id="humidity"></span>
+        </div>
+        <div class="card">
+          <h3>Wind</h3>
+          <span id="wind"></span>
+        </div>
+        <div class="card">
+          <h3>Pressure</h3>
+          <span id="pressure"></span>
+        </div>
+        <div class="card">
+          <h3>Feels Like</h3>
+          <span id="feels"></span>
+        </div>
+      </div>
+
+      <button id="voiceBtn" class="voice-btn">🔊 Read Weather Aloud</button>
+    </div>
+
+    <footer>
+      © 2025 SkyCast Pro • Crafted with Precision
+    </footer>
+  </div>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
