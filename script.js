@@ -1,4 +1,4 @@
-const API_KEY = "YOUR_API_KEY_HERE";
+const API_KEY = "9509507380afa5ddca173ea063f80044";
 let spoken = false;
 
 const searchBtn = document.getElementById("searchBtn");
